@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # GET localhost:3000/ask
   get "/ask", to: "questions#ask"
+  get "/answer", to: "questions#answer"
 
   # verb "/path", to: "controller_name#action"
 end
